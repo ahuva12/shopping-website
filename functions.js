@@ -6,8 +6,13 @@ function displayCraft() {
     renderProducts(getProducts(craft));
 }
 
-function main() {
-    displayNotebooks();
-}
+displayNotebooks();
 
-main();
+// fetch('https://fakestoreapi.com/products')
+//   .then(response => response.json())
+//   .then(data => {
+//     console.log(data);
+//   })
+//   .catch(error => {
+//     console.error('Error:', error);
+//   });

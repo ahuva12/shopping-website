@@ -1,7 +1,7 @@
 function getProduct(product) {
     return `
         <div class="product">
-            <h2>${product.title}</h2>
+            <h4>${product.title}</h4>
             <img src=${product.image} alt="title">
             <div class="inner-row">
             <button class="buttons">הוספה לסל</button>

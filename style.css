@@ -31,7 +31,12 @@
     border: 2px solid #ddd;
 }
 
+.buttons {
+    height: 30px;
+}
+
 .inner-row {
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
