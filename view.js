@@ -1,3 +1,4 @@
 function renderProducts(products) {
-    document.getElementById('prod-area').innerHTML(products);
+    document.getElementById('prod-area').innerHTML = products;
+
 }
