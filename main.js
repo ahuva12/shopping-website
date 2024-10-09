@@ -5,6 +5,7 @@ function displayNotebooks() {
 function displayCraft() {
     renderProducts(getProducts(craft));
 }
+
 function main() {
     renderProducts(getProducts(notebooks));
 }
