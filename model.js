@@ -8,6 +8,6 @@ function getProduct(product) {
     `
 }
 
-function getProducts(products) {
+function renderProducts(products) {
     return products.map(prod => getProduct(prod)).join("");
 }
