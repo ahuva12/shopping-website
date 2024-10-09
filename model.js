@@ -4,7 +4,7 @@ function getProduct(product) {
             <h2>${product.title}</h2>
             <img src=${product.image} alt="title">
             <div class="inner-row">
-            <button>הוספה לסל</button>
+            <button class="buttons">הוספה לסל</button>
             <p>${product.price}</p>
             </div>
         </div>
