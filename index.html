@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="he">
+
 <head>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
-    <div id="prod-area" class="prod-area"></div>
-    <div id="sidebar">
-        <button onclick="displayCraft()" id="craft" class="sidebar-option">כלי כתיבה</button>
-        <button  onclick="displayNotebooks()" id="notebooks" class="sidebar-option">מחברות</button>
+    <div class="external-div-row">
+        <div class="external-div-column">
+            <h1>Wellcometo our shop!</h1>
+            <div id="prod-area" class="prod-area"></div>
+        </div>
+        <div id="sidebar">
+            <button onclick="displayCraft()" id="craft" class="sidebar-option">כלי כתיבה</button>
+            <button onclick="displayNotebooks()" id="notebooks" class="sidebar-option">מחברות</button>
+        </div>
     </div>
     <script src="products.js"></script>
     <script src="model.js"></script>
     <script src="view.js"></script>
-    <script src="main.js"></script>
+    <script src="functions.js"></script>
 </body>
 
 </html>
