@@ -11,6 +11,12 @@
     flex-basis: 100%;
 }
 
+.head-line {
+    margin-left: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+}
+
 .prod-area {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

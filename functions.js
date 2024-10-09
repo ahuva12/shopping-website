@@ -9,10 +9,5 @@ function displayCraft() {
 displayNotebooks();
 
 // fetch('https://fakestoreapi.com/products')
-//   .then(response => response.json())
-//   .then(data => {
-//     console.log(data);
-//   })
-//   .catch(error => {
-//     console.error('Error:', error);
-//   });
+//             .then(res=>res.json())
+//             .then(json=>console.log(json))
